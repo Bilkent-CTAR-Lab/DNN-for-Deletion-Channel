@@ -1,5 +1,5 @@
 # Introduction
-This is the GitHub repository for the paper "A Deep Learning-Based Decoder for Concatenated Coding over Deletion 
+This is the GitHub repository for the paper "A Deep Learning Based Decoder for Concatenated Coding over Deletion 
 Channels," which has been accepted for presentation at the IEEE International Conference on Communications 
 in June 2024. The paper is authored by E. Uras Kargı and Tolga M. Duman.
 
@@ -20,19 +20,22 @@ We consider two different setups. In the first setup, we have
 a serial concatenation of an LDPC (or a convolutional code)
 with a marker code, and a BI-GRU architecture is developed
 to estimate the LLRs of the bits input to the marker code.
-Fig. 1 illustrates the block diagram of the first setup. In
+Figure 1 illustrates the block diagram of the first setup. In
 the second setup, we focus on the serial concatenation of
 a convolutional code with a marker code and develop BI-
 GRU architectures that perform one-shot decoding. That is,
 two BI-GRU architectures are combined to estimate the LLRs
-and decode the message bits in one step. Fig. 2 depicts the
+and decode the message bits in one step. Figure 2 depicts the
 block diagram of the second setup, where the entire receiver
 is replaced by BI-GRU architectures.
 
-![The block diagram for the first setup.](./Images/setup1.jpg)Figure 1: Block diagram for the first setup.
+<img src="./Images/setup1.jpg" alt="Block diagram for the first setup" width="500">
 
-![The block diagram for the second setup.](./Images/setup2.jpg "Figure 2: Block diagram for the second setup"))Figure 2: Block diagram for the second setup where the entire decoder is replaced by BI-GRU architectures.
+Figure 1: Block diagram for the first setup.
 
+<img src="./Images/setup2.jpg" alt="Block diagram for the second setup" width="500">
+
+Figure 2: Block diagram for the second setup.
 
 ## Training
 
