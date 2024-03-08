@@ -37,7 +37,19 @@ Figure 1: Block diagram for the first setup.
 
 Figure 2: Block diagram for the second setup.
 
+# Requirements
+Following are the requirements:
+
+```bash
+keras==2.13.1
+matplotlib==3.8.1
+numpy==1.24.3
+scipy==1.10.1
+tensorflow==2.13.0
+```
+
 ## Training
+
 
 Run the script python training.py to train the network. You can start training with the following command line:
 
